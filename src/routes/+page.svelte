@@ -1,13 +1,47 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-5">
-		<h1 class="h1">Let's get cracking bones!</h1>
-		<p>Start by exploring:</p>
-		<ul>
-			<li><code class="code">/src/routes/+layout.svelte</code> - barebones layout, the CSS import order is critical!</li>
-			<li><code class="code">/src/app.postcss</code> - minimal css to make the page full screen, may not be relevant for your project</li>
-			<li><code class="code">/src/routes/+page.svelte</code> - this page, you can replace the contents</li>
-		</ul>
-	</div>
+<div class="container h-full mx-auto flex flex-col justify-center items-center">
+	<h2 class="text-8xl">🦄</h2>
+	<h1 class="text-center gradient-heading text-2xl">Prinsessen rir på en <br /> enhjørning!!</h1>
 </div>
+
+<style>
+	@keyframes ride {
+		0% {
+			translate: 0;
+		}
+		50% {
+			translate: -100vw;
+		}
+		50.01% {
+			translate: 100vw;
+		}
+		100% {
+			translate: 0;
+		}
+	}
+
+	@keyframes bounce {
+		0% {
+			transform: translateY(0);
+		}
+		50% {
+			transform: translateY(-20px);
+		}
+		100% {
+			transform: translateY(0);
+		}
+	}
+	h2 {
+		position: relative;
+		animation: bounce 500ms ease-in-out infinite, ride 4s linear infinite;
+	}
+
+	h2:after {
+		position: absolute;
+		content: '👧🏽';
+		font-size: 60px;
+		right: -35px;
+		top: 25px;
+	}
+</style>
