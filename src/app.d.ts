@@ -6,4 +6,10 @@ declare namespace App {
 	// interface PageData {}
 	// interface Error {}
 	// interface Platform {}
+
+	interface SvxModule {
+		default: Constructor<import('svelte').SvelteComponent>;
+	}
+
+	type SvxResolver = Promise<SvxModule>;
 }

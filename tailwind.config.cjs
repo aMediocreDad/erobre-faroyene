@@ -1,5 +1,6 @@
 import { join } from 'path';
 import skeleton from '@skeletonlabs/skeleton/tailwind/skeleton.cjs';
+import typography from '@tailwindcss/typography';
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -11,5 +12,5 @@ module.exports = {
 	theme: {
 		extend: {}
 	},
-	plugins: [...skeleton()]
+	plugins: [...skeleton(), typography()]
 };
