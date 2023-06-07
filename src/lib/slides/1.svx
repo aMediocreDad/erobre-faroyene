@@ -1,5 +1,3 @@
-## Hiya!
+# # Góðan dag Amedia!
 
-How are you doing?
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio natus at iure beatae reiciendis praesentium harum numquam earum hic quos, expedita enim! A nemo asperiores autem natus quo mollitia praesentium delectus exercitationem cumque quidem illum nesciunt corrupti amet nihil magnam error, eius ipsam. Odit exercitationem atque harum? Maxime inventore a excepturi aliquid, magni animi blanditiis corporis atque veniam eius at! Modi recusandae voluptate obcaecati soluta dolor, fugiat sed molestias, neque provident aliquid deserunt magni iusto tenetur sapiente corrupti id. Hic possimus rerum, qui necessitatibus veniam at expedita ipsa maiores, atque sequi quibusdam, assumenda beatae? In hic suscipit fuga animi sapiente?
+> Hvað er þetta?

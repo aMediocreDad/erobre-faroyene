@@ -1,1 +1,3 @@
-## Neste slide
+# i18n (eller lokalisering)
+
++ Hvorfor?

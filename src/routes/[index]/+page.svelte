@@ -4,6 +4,6 @@
 	$: component = data.component;
 </script>
 
-<main class="prose prose-2xl">
+<div class="prose dark:prose-invert max-w-none">
 	<svelte:component this={component} />
-</main>
+</div>
