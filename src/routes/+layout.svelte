@@ -26,6 +26,13 @@
 			window.location.pathname = `/${nextSlide}`;
 		else if (e.key === 'ArrowLeft' || e.key === 'k' || e.key === 'h' || e.key === 'Backspace')
 			window.location.pathname = `/${prevSlide}`;
+		else if (e.key === 'f') {
+			window.localStorage.setItem('language', 'fo');
+			window.location.reload();
+		} else if (e.key === 'n') {
+			window.localStorage.setItem('language', 'no');
+			window.location.reload();
+		}
 	}}
 />
 <AppShell slotPageContent="overflow-hidden">
