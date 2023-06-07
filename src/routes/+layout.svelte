@@ -28,19 +28,19 @@
 			window.location.pathname = `/${prevSlide}`;
 	}}
 />
-<AppShell>
+<AppShell slotPageContent="overflow-hidden">
 	<!-- Main content -->
 	<slot />
 
 	<!-- Footer -->
 	<footer slot="footer">
 		{#if path === '/[index]'}
-			<nav class="flex justify-between max-w-2xl mx-auto text-4xl">
+			<nav class="flex justify-between max-w-2xl mx-auto text-4xl mt-4">
 				<a href="/{prevSlide}">&DoubleLeftArrow;</a>
 				<a href="/{nextSlide}">&DoubleRightArrow;</a>
 			</nav>
 		{/if}
-		<p class="text-center text-gray-400 select-none">
+		<p class="text-center text-gray-400 text-xs select-none">
 			{new Date().getFullYear()} &copy; {i('companyName')}
 		</p>
 	</footer>

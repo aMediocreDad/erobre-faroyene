@@ -8,12 +8,12 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		mdsvex({
-			extensions: ['.svx', '.svelte']
+			extensions: ['.md', '.svelte']
 		}),
 		vitePreprocess()
 	],
 
-	extensions: ['.svelte', '.svx'],
+	extensions: ['.svelte', '.md'],
 
 	vitePlugin: {
 		inspector: true
